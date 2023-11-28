@@ -18,11 +18,13 @@ body{
     width:90%;
     margin : auto;
 }
-.villageois{
+ .villageois{
     border-left: 4px solid #ff0000;
+    padding-left: 10px;
 }
-.fermier{
+ .fermier{
     border-left: 4px solid #00ff00;
+    padding-left: 10px; 
 }
 blockquote{
     display:block;
@@ -66,4 +68,13 @@ img{
     float : left;
     margin : 20px;
     height:400px;
+}
+.first{
+    list-style:  url('bien.png');
+}
+.second{
+    list-style : url('mal.png');
+}
+.third{
+    list-style : url('chat.png');
 }
