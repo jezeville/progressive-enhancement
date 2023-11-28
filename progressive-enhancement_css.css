@@ -59,15 +59,32 @@ header h1{
     background-color: #ffffff; 
 }
 img{
+    margin : 20px;
+    height:400px;
+}
+.first_div{
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-around;
 	align-items: stretch;
 	align-content: stretch;
-    float : left;
-    margin : 20px;
-    height:400px;
+}
+.second_div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: stretch;
+        align-content: stretch;
+}
+.intro_div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
 }
 .first{
     list-style:  url('bien.png');
